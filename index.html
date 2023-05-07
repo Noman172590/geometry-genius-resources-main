@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOMETRY_GENIUS-RESORCE</title>
+    <link rel="stylesheet" href="intex.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+                <div class="header_div">
+                        <div>
+                                <p class="p">Interactive </p>
+                                <p class="k">Geometry Genius </p>
+                        </div>
+
+                        <div>
+                                <button id="Blog" class="btn">Blog</button>
+                        </div>
+                </div>
+        </header>
+
+        <main>
+                <div class="main_div">
+                        <div class="main_div_div1 " onmouseover="myfunction()" id="rendom" onmouseout="myfuntionout()">
+                                <img class="img" src="triangle.png" alt="">
+                                <h1 id="Triangle" class="text">Triangle</h1>
+                                <h3 class="text">Area(A)=0.5*b*h</h3>
+                                <div class="div_input">
+                                        <input class="input" type="number" placeholder="b" id="b" min="1"  > cm
+                                        <input class="input" type="number" placeholder="h" id="h" min="1" > cm
+                                </div>
+                                <button id="Triangle_calculator" class="btn">Calculate</button>
+                        </div> 
+                        <div class="main_div_div2"
+                        onmouseover="myfunction1()" id="rendom1" onmouseout="myfuntionout2()" >
+                                <img class="img" src="Rectangle 9.png" alt="">
+                                <h1 id="Rectangle" class="text">Rectangle</h1>
+                                <h3 class="text">Area(A)=W*I</h3>
+                                <div class="div_input" style="margin-bottom: 20px;">
+                                        <input class="input" type="number" placeholder="W" id="w" min="1" > cm
+                                        <input class="input" type="number" placeholder="I" id="i" min="1"> cm
+                                </div>
+                                <button id="Rectangle_calculator" class="btn">Calculate</button>
+                        </div> 
+                        <div class="main_div_div2" onmouseover="myfunction3()" id="rendom2" onmouseout="myfuntionout4()">
+                                <img class="img" src="parallelogram.png" alt="">
+                                <h1 id="Parallelogram" class="text">Parallelogram</h1>
+                                <h3 class="text">Area(A)=b*h</h3>
+                                <div class="div_input" style="margin-bottom: 29px;">
+                                        <input class="input" type="number" placeholder="b" id="b1" min="1"> cm
+                                        <input class="input" type="number" placeholder="h" id="h1" min="1"> cm
+                                </div>
+                                <button id="Parallelogram_calculator" class="btn">Calculate</button>
+                        </div>
+                         <!--Area Calculation  -->
+                        <div class="main_div_div2"onmouseover="myfunction5()" id="rendom3" onmouseout="myfuntionout6()" >
+                               <p class="Area_Calculation_P">Area Calculation</p>
+                               <table id="Area_Calculation_table">
+                                       
+                               </table>
+                        </div> 
+                        <!-- Area Calculation -->
+                        <div class="main_div_div3" onmouseover="myfunction7()" id="rendom4" onmouseout="myfuntionout8()">
+                                <img class="img" src="rhombus.png" alt="">
+                                <h1 id="Rhombus" class="text">Rhombus</h1>
+                                <h3 class="text">Area(A)=0.5*d<sub>2</sub>*h <sub>2</sub></h3>
+                                <div class="div_input" style="margin-bottom: 5px;">
+                                        <input class="input" type="number" placeholder="d1" id="d1" min="1"> cm
+                                        <input class="input" type="number" placeholder="d2" id="d2" min="1"> cm
+                                </div>
+                                <button id="Rhombus_calculator" class="btn">Calculate</button>
+                        </div> 
+                        <div class="main_div_div2"onmouseover="myfunction9()" id="rendom5" onmouseout="myfuntionout10()">
+                                <img class="img" src="pentagon.png" alt="">
+                                <h1 id="Pentagon" class="text">Pentagon</h1>
+                                <h3 class="text">Area(A)=0.5*p*b</sub></h3>
+                                <div class="div_input" style="margin-top: -15px;">
+                                        <input class="input" type="number" placeholder="o" id="p1" min="1"> cm
+                                        <input class="input" type="number" placeholder="b" id="pentagon_b" min="1"> cm
+                                        
+                                </div>
+                                <button id="Pentagon_calculator" class="btn">Calculate</button>
+                        </div> 
+                        <div class="main_div_div2" onmouseover="myfunction11()" id="rendom6" onmouseout="myfuntionout12()">
+                                <img class="img" src="ellipse.png" alt="">
+                                <h1 id="Ellipse" class="text">Ellipse</h1>
+                                <h3 class="text">Area(A)=&pi;*a*b</h3>
+                                <div class="div_input" style="margin-bottom: 28px;">
+                                        <input class="input" id="ellipse_a" type="number" placeholder="a" min="1"> cm
+                                        <input class="input" id="ellipse_b"     type="number" placeholder="b" min="1"> cm
+                                </div>
+                                <button id="Ellipse_calculator" class="btn">Calculate</button>
+                        </div> 
+                       
+                </div>
+                           
+        </main>
+        
+    
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
